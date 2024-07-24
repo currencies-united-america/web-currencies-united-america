@@ -1,20 +1,26 @@
 # web-currencies-united-america
 
-    Esta app te ayudarldjffjgfjgig
+Esta app consiste en hacer el cambio de una moneda local a otra.
     
-  ## Integrantes
-  - Claudio
+## Integrantes
+
+- Claudio
     
-  - Nancy
+- Nancy
     
-  - Jessica
-    
+- Jessica
+
 ## Historias de Usuario
 
-  [link del proyecto](https://github.com/orgs/currencies-united-america/projects/1)
+[link del proyecto](https://github.com/orgs/currencies-united-america/projects/1)
   
 ## Requerimientos del software
 
+[Link hacia los requerimientos]()
 
     
 ## Modelo de dominio
+
+#### Product
+
+#### Order
