@@ -22,10 +22,21 @@ Cuando haces una transacción o envías dinero al extranjero, se produce un camb
 
     + Mi página web no tendrá una app para IOS O Android.
  
-  ### Elaboración Mínima Viable
+### Elaboración Mínima Viable
 
   - Calculadora de monedas, el nombre de los paises y el valor de cada moneda.
 
-  - Botón para iniciar la operación 
+  - Botón para iniciar la operación
+  - Página con el registro de la operación
+
+### Logros Adicionales
+
++ Crear un proceso de checkout
++ Crear un proceso de registro de usuarios.
+
+## Requerimientos funcionales
+
+1. El administrador puede crear y eliminar las cuentas de los usuarios.
+2. 
     
 
