@@ -7,7 +7,7 @@ Esta app consiste en hacer el cambio de una moneda local a otra.
 - Claudio
     
 - Nancy
-    
+
 - Jessica
 
 ## Historias de Usuario
