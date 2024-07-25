@@ -18,6 +18,9 @@ Esta app consiste en hacer el cambio de una moneda local a otra.
 
 [Link hacia los requerimientos]()
 
+##Wireframe
+![New Wireframe 1](https://github.com/user-attachments/assets/2d037060-b108-458c-a16d-865b096a9d22)
+
     
 ## Modelo de dominio
 
