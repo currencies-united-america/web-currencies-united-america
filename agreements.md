@@ -45,11 +45,18 @@ Si nuestros intentos de resolución no son efectivos, abordaremos el problema ll
 
 ## Procedimiento de Git
 
-¿Qué componentes de tu proyecto se subirán a GitHub?
-¿Cómo vas a compartir el repositorio con tus compañeros?
-¿Cuál es tu flujo de trabajo de Git?
-¿Utilizarás un flujo de trabajo de revisiones PR? Si es así, considera:
-    ¿Cuántas personas deberán revisar un PR?
-    ¿Quíen hacer el merge a los PR?
-    ¿Cada cuánto tiempo harán merge?
-    ¿Cómo se comunicarán cuando sea momento de hacer un merge?
+- Todos las carpetas y archivos de nuestro proyecto se subirán a GitHub.
+
+- Para compartir el repositorio vamos a clonarlo en nuestras computadoras y luego usaremos las funciones de git para mantener nuestras ramas y el main del proyecto actualizados.
+
+- Nuestro flujo de trabajo de Git será: utilizar un repositorio central como punto de entrada para todos los cambios del proyecto, luego cada miembro del equipo creará su propia rama para aportar al código, usar ACP para subir los cambios al repositorio remoto.
+
+- Utilizaremos un flujo de trabajo de revisiones PR.
+
+- Todos los integrantes del proyecto realizarán y revisarán los PR.
+
+- Claudio hará el merge a los PR.
+
+- Los merge se realizarán al final de cada día.
+
+- Nos comunicaremos por Slack cuando sea momento de hacer un merge.
