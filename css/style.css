@@ -143,6 +143,7 @@ h2 {
 .contenedor2{
     text-align: center;
     margin-top: 60px;
+    margin-right: 50px;
 }
 
 .btn-whatsapp { 
@@ -215,10 +216,20 @@ footer{
     margin-right: 0; 
     width: 120px;
     height: 50px;
-    margin-top: 20px;
+    margin-top:-80px;
     border: 2px solid#1151da; 
     border-radius: 10px;
     padding: 5px;
-    margin-bottom: 50px;
-    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-right: 182px;
+}
+
+.redes img {
+    margin: 5px 0;
 }
