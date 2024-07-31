@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+  }
+.menu > ul{
+    display: flex;
+    padding: 20px 30px;
+    float: right;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.menu > ul > li > a {
+    color: black;
+    text-decoration: none;
+    font-family: Georgia, Times, sans-serif;
+    border: 2px solid #000;
+    font-weight: bolder;
+    padding: 4px;
+}
+.menu > ul > li a:hover{
+    text-decoration: underline;
+    background-color:rgb(118, 178, 238);
+}
+header img {
+    height: 60px;
+    width: 250px;
+    margin-left: 30px;
+}
+
+header nav{
+    background-color: whitesmoke;
+    margin-top: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.historia{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 70px;
+    padding: 100px;
+    font-weight: bold;
+
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+main .texto{
+    font-size: 1.2rem;
+    line-height: 25px;
+    color: black;
+    text-align:justify;
+    margin-top: 1%;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+    padding: 100px;
+    font-weight: bold;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;   
+    gap: 50px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.nombre{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #7199ee;
+}
+
+.foto {
+    width:220px; 
+    height: 300px;
+    border-radius: 20px;
+  }
+  
+.foto1 {
+    text-align: center; 
+    margin: 20px; 
+}
+
+.foto2 {
+    text-align: center; 
+    margin: 20px; 
+}
+
+.foto3 {
+    text-align: center; 
+    margin: 20px; 
+}
+
+.frase{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px; 
+    margin-top: 50px;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.contenedor1{
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+.logo2{
+    width: 200px;
+    height: 50px;
+}
+
+.p1{
+    font-size: 20px;
+}
+
+.redes img{
+    flex-direction: column;
+}
+
+.contenedor2{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.btn-whatsapp { 
+    display: table;
+    font-family:sans-serif;
+    text-decoration: none;
+    margin: 2em auto;  
+    color: #fff;
+    font-size: 0.8em;
+    padding: 1em 1em 1em 3em;
+    border-radius: 1em;
+    font-weight: bold;
+    background: #25d366 url('https://tochat.be/click-to-chat-directory/css/Whatsapp.svg')
+    no-repeat 1.5em center;
+    background-size: 1.5em;
+    text-align: left;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacto{
+    color: blue;
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+.gmail{
+    font-size: 20px;
+    margin-top: 20px;
+    border: 2px solid #386e5c8a; 
+    padding: 2px;
+    border-radius: 1em;
+}
+
+.contenedor3{
+    margin-right: 180px;
+    margin-top: 60px;
+}
+
+.contenedor3 > p{
+    margin-bottom: 10px;
+    
+}
+
+.horario{
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+.hora{
+    color:blue;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: rgb(110, 110, 252);
+    padding: 40px;
+    font-family: Times, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+.libro{
+    display: block; 
+    margin-left: 950px; 
+    margin-right: 0; 
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+    border: 2px solid#1151da; 
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
