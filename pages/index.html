@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
     <header>
 
@@ -20,36 +21,47 @@
         </nav>
 
     </header>
-   
+
     <main>
         <div>
           
             <div>
                 <img src="logo.png" alt="">
-                <p>Procede a intercambiar monedas desde este recuadro.</p>
-                <div>
-                    <label for="send">Envías:</label>
-                    <select id="send">
-                        <option value="usd">USD</option>
-                        <option value="eur">EUR</option>
-                    </select>
-                    <input type="text" id="send-amount" placeholder="Cantidad">
-                    <label for="receive">Recibes:</label>
-                    <select id="receive">
-                        <option value="pen">PEN</option>
-                        <option value="usd">USD</option>
-                    </select>
-                    <input type="text" id="receive-amount" placeholder="Cantidad">
-                    <button>Cambiar</button>
-                </div>
+            <h1>Cambios de Monedas</h1>
+            <div class="cuadro-divisas">
+                
+                <h3>Dolar: 3.74</h3>
+
+                <label for="letter">Selecciona una moneda:</label>
+                <select id="letter">
+                    <option value="3.74">DOLARES</option>
+                </select>
+                <p>
+
+                </p>
+
+                <label for="quantity">Ingresa la cantidad para cambiar:</label>
+                <input type="number" id="quantity" />
+
+                <button onclick="calculate()">Calcular</button>
+
+                <p id="result"></p>
+
+                <p>
+
+                </p>
+
+                <ul id="resultList"></ul>
+              
             </div>
-            <div>
-                <button>INTERBANK</button>
-                <button>SCOTIABANK</button>
-                <button>BCP</button>
-                <button>CONTINENTAL</button>
-            </div>
-            <div class="contenedor-pasos">
+        </div>
+        <div>
+            <button>INTERBANK</button>
+            <button>SCOTIABANK</button>
+            <button>BCP</button>
+            <button>CONTINENTAL</button>
+        </div>
+        <div class="contenedor-pasos">
             <div class="pasos-conteiner">
                 <h2>Sigue los siguientes pasos:</h2>
                 <div class="pasos">
@@ -58,31 +70,36 @@
                 </div>
                 <div class="pasos">
                     <p>2. Transfiere a SC.
-                        Realiza la transferencia a través de tu banca online a la cuenta de Safe Change y envíanos la constancia.</p>
+                        Realiza la transferencia a través de tu banca online a la cuenta de Safe Change y envíanos la
+                        constancia.</p>
                 </div>
                 <div class="pasos">
                     <p>3. Recibe tu cambio.
                         Te abonaremos el dinero a tu cuenta registrada.</p>
                 </div>
             </div>
-            </div>
+        </div>
         </section>
     </main>
     <footer>
+
         <div  class="contenedor1">
             <img class="logo2" src="../img/logo2.png" alt="logo">
+
             <p class="p1">®United America</p>
             <div class="redes">
-                <img  src="../img/facebook.png" alt="Facebook" width="80px" >
-                <img  src="../img/Instagram.png" alt="Instagram" width="50px" >
-                <img  src="../img/gmail.png" alt="Gmail" width="50px" >
+                <img src="../img/facebook.png" alt="Facebook" width="80px">
+                <img src="../img/Instagram.png" alt="Instagram" width="50px">
+                <img src="../img/gmail.png" alt="Gmail" width="50px">
             </div>
         </div>
         <div class="contenedor2">
             <p class="contacto">Contáctanos </p>
+
             <p class="gmail">unitedamerica@gmail.com</p>
+
             <a href="https://wa.me/51986893183" class="btn-whatsapp">+51 986893183</a>
-            
+
         </div>
         <div class="contenedor3">
             <p class="horario">Horarios de atención</p>
@@ -100,10 +117,12 @@
     </a>
 
     <p class="footer">
+      
         UA Business Online S.A.C - RUC: 30502202373 <br>
         Av. Miraflores 3455 Of. 110 Inscritos en la SBS según Resolución N° 03054-2017       
+
     </p>
-    <script src="../js/app.js"></script>
+    <script src="/js/app.js"></script>
 </body>
 
 </html>
