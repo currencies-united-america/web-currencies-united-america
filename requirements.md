@@ -35,7 +35,8 @@ Cuando haces una transacción o envías dinero al extranjero, se produce un camb
 
 ## Requerimientos funcionales
 
-1. ```js function calculate() {
+1. ```js
+    function calculate() {
     // Obtener el valor de la letra seleccionada
     const letterValue = parseFloat(document.getElementById('letter').value);
 
@@ -53,6 +54,7 @@ Cuando haces una transacción o envías dinero al extranjero, se produce un camb
     const newListItem = document.createElement('il');
     newListItem.innerText = 'Resultados: ' + result.toFixed(2);
     resultList.appendChild(newListItem);
-} ```
+    } 
+    ```
 
 2.

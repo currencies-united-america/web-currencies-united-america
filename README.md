@@ -39,4 +39,8 @@ Esta app consiste en hacer el cambio de una moneda local a otra.
 
 #### Product
 
+- Id (number)
+- Moneda (string)
+- Rate (number)
+
 #### Order
