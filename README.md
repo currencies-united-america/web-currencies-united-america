@@ -42,5 +42,3 @@ Esta app consiste en hacer el cambio de una moneda local a otra.
 - Id (number)
 - Moneda (string)
 - Rate (number)
-
-#### Order
