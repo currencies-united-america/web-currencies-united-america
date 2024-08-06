@@ -17,8 +17,9 @@ function calculate() {
     const newListItem = document.createElement('li');
     newListItem.innerText = '  Resultados: ' + result.toFixed(2);
     resultList.appendChild(newListItem);
-    
-    
 }
+
+
+
 
 
