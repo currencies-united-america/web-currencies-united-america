@@ -30,12 +30,14 @@ Cuando haces una transacción o envías dinero al extranjero, se produce un camb
 
 ### Logros Adicionales
 
-+ Crear un proceso de checkout.
 + Crear un proceso de registro de usuarios.
++ Crear un proceso de checkout.
 
 ## Requerimientos funcionales
 
-1. ```js
+1. Función Calcular:
+
+    ```js
     function calculate() {
     // Obtener el valor de la letra seleccionada
     const letterValue = parseFloat(document.getElementById('letter').value);
@@ -55,4 +57,34 @@ Cuando haces una transacción o envías dinero al extranjero, se produce un camb
     newListItem.innerText = 'Resultados: ' + result.toFixed(2);
     resultList.appendChild(newListItem);
     } 
+    ```
+
+2.  Función Guardar Resultados:
+
+    ```js
+    function saveResult(resultText) {
+    let results = JSON.parse(localStorage.getItem('results')) || [];
+    results.push(resultText);
+    localStorage.setItem('results', JSON.stringify(results));
+    }
+    ```
+
+3.  Función Cargar Resultados:
+
+    ```js
+    function loadResults() {
+    let results = JSON.parse(localStorage.getItem('results')) || [];
+    results.forEach(resultText => addResultToList(resultText));
+    }
+    ```
+
+4.  Función Añadir Resultados:  
+
+    ```js
+    function addResultToList(resultText) {
+    const resultList = document.getElementById('resultList');
+    const listItem = document.createElement('li');
+    listItem.innerText = resultText;
+    resultList.appendChild(listItem);
+    }
     ```
