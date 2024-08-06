@@ -53,14 +53,17 @@ header nav{
     padding: 0;
 }
 
+
+
 h1{
-    margin-top: 150px;
+    margin-top: 45px;
     font-size: 40px;
     font-weight: bold;
     color: darkslategray;
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
+
 
 .color{
     color: rgb(250, 218, 37);
@@ -80,16 +83,16 @@ h1{
 }
 
 .imagenes1{
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .subtitulo{
     font-size: 40px;
     font-weight: bold;
     color: darkslategray;
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .banderas > img{
@@ -104,14 +107,29 @@ h1{
 }
 
 .banderas{
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .contenedorsecundario{
     margin-top: 60px;
 }
 
+.cambio{
+    color: #0056b3;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.dolar{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-style:italic;
+    font-weight: bold;
+    margin-top: 5px;
+    text-decoration: underline rgb(8, 8, 8);
+}
 .formulario {
     position: absolute;
     right: 0;
@@ -153,7 +171,7 @@ h1{
 }
 
 .formulario input {
-    font-size: 16px; /* Ajusta el tamaño de la fuente según tus necesidades */
+    font-size: 16px; 
     padding: 10px; /* Ajusta el padding para aumentar el tamaño del campo de entrada */
     box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño total del input */
     font-family: 'Times New Roman', Times, serif;
@@ -162,12 +180,13 @@ h1{
 .formulario label {
     font-family: 'Arial', sans-serif; 
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
+    margin-top: 20px;
 }
 
 .formulario button {
     font-size: 30px; 
-    padding: 12px 20px; /* Ajusta el padding para aumentar el tamaño del botón */
+    padding: 5px 10px; /* Ajusta el padding para aumentar el tamaño del botón */
     border: 2px solid #5ca3f0; /* Ajusta el borde del botón si es necesario */
     border-radius: 10px; 
     background-color: #5ca3f0; /* Ajusta el color de fondo del botón */
@@ -177,17 +196,16 @@ h1{
     box-sizing: border-box; /* Incluye padding y border en el tamaño total del botón */
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .formulario button:hover {
-    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+    background-color: #0056b3; 
 }
 
 .button-container {
     display: flex; /* Utiliza Flexbox para alinear los botones en una fila */
-    justify-content: space-between; /* Espacio igual entre los botones */
-    gap: 10px; /* Espacio entre botones */
+    justify-content: space-between;
 }
 
 .button-container button {
@@ -200,7 +218,7 @@ h1{
     cursor: pointer; 
     flex: 1; /* Hace que los botones ocupen el mismo espacio disponible */
     text-align: center; 
-    margin-top: 100px;
+    margin-top: 150px;
     font-weight: bold;
 }
 
@@ -209,32 +227,44 @@ h1{
 }
 
 .button-container{
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 90px;
+    margin-right: 90px;
     gap: 35px;
 }
 
-.contenedor-pasos {
-    display: grid;
-    grid-template-columns: 1fr; /* Una columna para el título */
-    gap: 20px; /* Espacio entre filas */
-    text-align: center; /* Centra el título */
+.resultado{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px; /* Añadir un padding para más espacio interno */
+    min-height: 20px; /* Establecer una altura mínima para el fondo */
+    border: 1px solid #0c0c0c;
 }
 
-.pasos-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
-    gap: 20px; /* Espacio entre columnas */
+.registro{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+
 }
 
-.pasos {
-    padding: 20px;
-    box-sizing: border-box;
-}
+.registro li {
+    margin-bottom: 10px; 
+    background-color: #f9f9f9; 
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
 
-.pasos p {
-    margin: 0; /* Elimina márgenes predeterminados del párrafo */
-}
+
+
 
 .historia{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -247,7 +277,7 @@ h1{
 
 main{
     margin-left: 20px;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 main .texto{
@@ -343,16 +373,22 @@ h2 {
     display: table;
     font-family:sans-serif;
     text-decoration: none;
-    margin: 2em auto;  
+    margin: 1em auto;  
     color: #fff;
-    font-size: 0.8em;
-    padding: 1em 1em 1em 3em;
+    font-size: 0.9em;
+    padding:  1em 1em 1em 3.5em;
     border-radius: 1em;
     font-weight: bold;
     background: #25d366 url('https://tochat.be/click-to-chat-directory/css/Whatsapp.svg')
     no-repeat 1.5em center;
-    background-size: 1.5em;
+    background-size: 1.6em;
     text-align: left;
+    width: 120px;
+    margin-top: 20px;
+}
+
+.btn-whatsapp{
+    margin-left: -1px;
 }
 
 footer{
@@ -372,6 +408,7 @@ footer{
     border: 2px solid #386e5c8a; 
     padding: 2px;
     border-radius: 1em;
+    width: 250px;
 }
 
 .contenedor3{
