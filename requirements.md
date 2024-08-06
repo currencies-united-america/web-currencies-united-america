@@ -56,5 +56,9 @@ Cuando haces una transacción o envías dinero al extranjero, se produce un camb
     resultList.appendChild(newListItem);
     } 
     ```
+<<<<<<< HEAD
 
 2.
+=======
+2.
+>>>>>>> b4b0d4187eb45afe2665d9078178c6c54e1ffa5d
