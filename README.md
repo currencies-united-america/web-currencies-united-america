@@ -18,7 +18,7 @@ Esta app consiste en hacer el cambio de una moneda local a otra.
 
 - **Banco:** Quiero que nuestros clientes puedan escoger el banco que deseen para su transacción.
 
-- **Tipo de moneda:** Quiero que nuestros clientes puedan realizar el cambio de moneda de dólares a soles. En el futuro nos gustaría añadir más opciones de cambio de moneda.
+- **Tipo de moneda:** Quiero que nuestros clientes puedan realizar el cambio de moneda de dólares a soles y viceversa. En el futuro nos gustaría añadir más opciones de cambio de moneda.
 
 - **Libro de reclamaciones:** Quiero que, de tener alguna disconformidad, nuestros clientes puedan tener acceso al libro de reclamaciones.
 
@@ -34,7 +34,6 @@ Esta app consiste en hacer el cambio de una moneda local a otra.
 ![New Wireframe 1](https://github.com/user-attachments/assets/2d037060-b108-458c-a16d-865b096a9d22)
 ![Nosotros](https://github.com/user-attachments/assets/50dce79f-3ed0-42b0-8704-25afd3caf2b5)
 
-    
 ## Modelo de dominio
 
 #### Product
