@@ -56,7 +56,7 @@ header nav{
 
 
 h1{
-    margin-top: 45px;
+    margin-top: 100px;
     font-size: 40px;
     font-weight: bold;
     color: darkslategray;
@@ -77,7 +77,7 @@ h1{
     justify-content: center;
     gap: 20PX;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 25px;
     border-radius: 10px;
     
 }
@@ -102,7 +102,7 @@ h1{
     justify-content: center;
     gap: 20PX;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 25px;
     border-radius: 10px;
 }
 
@@ -112,7 +112,7 @@ h1{
 }
 
 .contenedorsecundario{
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 .cambio{
@@ -144,7 +144,7 @@ h1{
     border: 10px solid #bbe0f8;
     background-color:lavender;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 100px;
     z-index: 1; /* Valor bajo para asegurarse de que esté por debajo del header */
 }
 
@@ -232,6 +232,8 @@ h1{
     gap: 35px;
 }
 
+
+
 .resultado{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -261,6 +263,53 @@ h1{
     border: 1px solid #ccc;
     border-radius: 3px;
     border: 1px solid #ccc;
+}
+
+
+.pasos-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px; 
+    margin-left: 90px;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+.paso {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 2px solid #83b1fa;
+    border-radius: 10px;
+    background-color: #66aae9;
+    font-size: 20px;
+}
+
+.numero {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #98c0fc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #ffffff;
+    margin-bottom: 20px; /* Espacio entre el círculo y el texto */
+}
+
+.contenido {
+    text-align: justify;
+}
+
+.negrita1 {
+    font-weight: bold;
+    font-size: 23px;
 }
 
 
@@ -341,6 +390,7 @@ h2 {
 
 .negrita{
     font-weight: bold;
+    font-size: 40px;
 }
 
 .contenedor1{
@@ -406,7 +456,7 @@ footer{
     border: 2px solid #386e5c8a; 
     padding: 2px;
     border-radius: 1em;
-    width: 250px;
+    width: 220px;
 }
 
 .contenedor3{
@@ -460,4 +510,72 @@ footer{
 
 .redes img {
     margin: 5px 0;
+}
+
+/*registrarse*/
+
+.container-regitrarse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 60px;
+    padding: 1rem; 
+}
+
+.formulario2 {
+    background-color: whitesmoke;
+    padding: 5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Título */
+.usuarios {
+    margin-bottom: 1.5rem;
+    margin-top: 5px;
+    font-size: 3.5rem;
+    color: #2b0cdd;
+    text-align: center;
+}
+
+/* Etiquetas */
+.formulario2 label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #0c0c0c;
+}
+
+/* Campos de entrada */
+.formulario2 input[type="text"],
+.formulario2 input[type="date"],
+.formulario2 input[type="email"],
+.formulario2 input[type="password"] {
+    width: calc(100% - 1.5rem); 
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Botón de envío */
+.formulario2 button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 500px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.formulario2 button:hover {
+    background-color: #0056b3;
 }
