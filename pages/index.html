@@ -23,44 +23,57 @@
     </header>
 
     <main>
-        <div>
-          
+        <section class="contenedorprincipal">
+
+            <h1>Te preocupas por tu seguridad. <br>
+            <span class="color">Nosotros aún más.</span></h1>
+            <div class="imagenes1">
+            <img src="../img/seguridad.png" alt="seguridad" >
+            <img src="../img/confianza.jpeg" alt="confianza" >
+            <img src="../img/ahorro.png" alt="ahorro">
+            <img src="../img/rayo.png" alt="velocidad">
+            </div>
             <div>
-                <img src="logo.png" alt="">
-            <h1>Cambios de Monedas</h1>
-            <div class="cuadro-divisas">
-                
-                <h3>Dolar: 3.74</h3>
+        </section>
+        <section class="contenedorsecundario">
+        <p class="subtitulo">
+            Cambia online <span class="color">dólares</span> y <br>
+            <span class="color">soles </span> al mejor tipo de cambio.
+        </p>
+        <div class="banderas">
+        <img src="../img/eeuu.jpg" alt="eeuu">
+        <img src="../img/peru.png" alt="peru">
+        </div>
+        </section>
+            <div class="formulario">
+                <p class="cambio">Cambio de Monedas</p>
+                <p class="dolar">Dolar: 3.74</p>
 
                 <label for="letter">Selecciona una moneda:</label>
                 <select id="letter">
                     <option value="3.74">DOLARES</option>
                 </select>
-                <p>
-
-                </p>
 
                 <label for="quantity">Ingresa la cantidad para cambiar:</label>
                 <input type="number" id="quantity" />
 
+                <p class="resultado" id="result"></p>
+
                 <button onclick="calculate()">Calcular</button>
 
-                <p id="result"></p>
-
-                <p>
-
-                </p>
-
-                <ul id="resultList"></ul>
+                <ul  class="registro" id="resultList">
+              
+                   
+                </ul>
               
             </div>
-        </div>
-        <div>
+            <div class="button-container">
             <button>INTERBANK</button>
             <button>SCOTIABANK</button>
             <button>BCP</button>
             <button>CONTINENTAL</button>
-        </div>
+
+            </div>
         <div class="contenedor-pasos">
             <div class="pasos-conteiner">
                 <h2>Sigue los siguientes pasos:</h2>
