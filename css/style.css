@@ -98,7 +98,7 @@ h1{
 .banderas > img{
     width: 130px;
     height: 80px;
-    margin-right: 50px;
+    margin-right: 200px;
     justify-content: center;
     gap: 20PX;
     align-items: center;
@@ -261,9 +261,7 @@ h1{
     border: 1px solid #ccc;
     border-radius: 3px;
     border: 1px solid #ccc;
-  }
-
-
+}
 
 
 .historia{
