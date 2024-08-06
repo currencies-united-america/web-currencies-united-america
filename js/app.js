@@ -14,7 +14,11 @@ function calculate() {
 
     // Listado de Movimientos
     const resultList = document.getElementById('resultList');
-    const newListItem = document.createElement('il');
-    newListItem.innerText = 'Resultados: ' + result.toFixed(2);
+    const newListItem = document.createElement('li');
+    newListItem.innerText = '  Resultados: ' + result.toFixed(2);
     resultList.appendChild(newListItem);
+    
+    
 }
+
+
